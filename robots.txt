@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://visaphoto1tap.com/sitemap.xml
