@@ -3,6 +3,7 @@
   "pagePairs": 1,
   "internalReferencesChecked": 78,
   "sitemapURLs": 2,
-  "protectedPoliciesAndCampaignsUnchanged": false,
-  "errors": []
+  "protectedPoliciesAndCampaignsUnchanged": null,
+  "errors": [],
+  "protectionScope": "No policy or campaign file in this root repository; US protected files separately verified."
 }
