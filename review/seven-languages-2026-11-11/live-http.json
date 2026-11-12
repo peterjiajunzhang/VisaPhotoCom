@@ -1,0 +1,85 @@
+{
+  "contentCommit": "77e1ac54b8406248baaed99d77e1ac57113c1dc5",
+  "verifiedAt": "2026-11-12T04:12:03.767778+00:00",
+  "files": [
+    {
+      "url": "https://visaphoto1tap.com/",
+      "status": 200,
+      "matches": true,
+      "sha256": "6ce4ca057859ab6b5f71041324ada059062a4a3ddd7a067fa9b31c03a75925e2"
+    },
+    {
+      "url": "https://visaphoto1tap.com/zh-hans/",
+      "status": 200,
+      "matches": true,
+      "sha256": "a0e935f3595e4fffcd1c47c787d180b6ca1011ff83e6429b0f35413fb77e7824"
+    },
+    {
+      "url": "https://visaphoto1tap.com/zh-hant/",
+      "status": 200,
+      "matches": true,
+      "sha256": "af7eab817d223523affc5c383b5cb20db3a5eb81d9632e0ab5571eaf629d6fc8"
+    },
+    {
+      "url": "https://visaphoto1tap.com/es/",
+      "status": 200,
+      "matches": true,
+      "sha256": "86fdde2744e08b1bf83604727a3b2927a1d63e2c4a04deeab360eb2c7631bbe8"
+    },
+    {
+      "url": "https://visaphoto1tap.com/ja/",
+      "status": 200,
+      "matches": true,
+      "sha256": "c88ba17af93a155e5a4cd0c9922ff4574b87f5fd7038dd14d0ac0912a40798dd"
+    },
+    {
+      "url": "https://visaphoto1tap.com/de/",
+      "status": 200,
+      "matches": true,
+      "sha256": "b12355a807aa7496337b14c2408a703fc78717e5c226cbbef4b9b103c91ae21d"
+    },
+    {
+      "url": "https://visaphoto1tap.com/fr/",
+      "status": 200,
+      "matches": true,
+      "sha256": "250c2a961dd1a865f42d9d3ed4515ea61b685424233d038003d6ecbacb5abc98"
+    },
+    {
+      "url": "https://visaphoto1tap.com/sitemap.xml",
+      "status": 200,
+      "matches": true,
+      "sha256": "729e2b41f69583098e3a81ac2ca935bb47a9cae13049fd83a69f993d12180b8c"
+    },
+    {
+      "url": "https://visaphoto1tap.com/robots.txt",
+      "status": 200,
+      "matches": true,
+      "sha256": "92a965bb242e2e5d00e452a0f64ad87909f938f20454cd4732e08f4be9e928b6"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/locales.css",
+      "status": 200,
+      "matches": true,
+      "sha256": "27b23ce7567b39a3f990e1a39b563563935f3e13179c8d5cf5bd324727330ef7"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/locales.js",
+      "status": 200,
+      "matches": true,
+      "sha256": "27f3c121a8dc579d154bf2cbfa146e97e1c13271cdcb7cf4be2e161e3e6cc2d6"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/site.css",
+      "status": 200,
+      "matches": true,
+      "sha256": "5c77a8d56d7ef89f223a5767ba966405dc99fe5e0b7c968dfa65d545da124e90"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/site.js",
+      "status": 200,
+      "matches": true,
+      "sha256": "64694d22bf3c2fd9169a9981dd1cc1b76f5ad192e3d0b1ab6d92a05ebfb5a216"
+    }
+  ],
+  "allMatch": true
+}
