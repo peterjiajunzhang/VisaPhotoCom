@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "flows": {
+    "sameArticleLanguageSwitch": true,
+    "chineseDirectoryThreeTopics": true
+  },
+  "consoleErrors": []
+}

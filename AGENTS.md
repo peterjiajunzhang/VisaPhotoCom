@@ -7,3 +7,5 @@ Use the original official App Store and Google Play badge artwork for store down
 Preserve native screenshot content, watermarks and purchase state. Identify iPhone screenshots accurately. Keep photo-processing privacy distinct from SDK and purchase data disclosures. Explain background-editing restrictions and official acceptance limits.
 
 Publish through existing GitHub Pages main workflow. Check narrow phone, tablet and desktop layouts and actual navigation, then document the deployment and observed search evidence in README.md and the dated review folder.
+
+Follow [COPY_GUIDE.md](COPY_GUIDE.md) for factual product copy and page-language consistency. The image labels are Original / Result, with neutral translations.
