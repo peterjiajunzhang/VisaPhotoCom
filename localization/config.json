@@ -1,1 +1,72 @@
-{"origin":"https://visaphoto1tap.com","pages":["index.html"],"modified":"2026-11-11","keepEnglish":["Visa Photo","1-Tap","iPhone","Android","iPhone · Android"]}
+{
+  "origin": "https://visaphoto1tap.com",
+  "pages": [
+    "index.html"
+  ],
+  "modified": "2026-11-11",
+  "keepEnglish": [
+    "Visa Photo",
+    "1-Tap",
+    "iPhone",
+    "Android",
+    "iPhone · Android"
+  ],
+  "locales": [
+    {
+      "code": "en",
+      "prefix": "",
+      "name": "English",
+      "choose": "Choose language",
+      "filterOne": "{count} app shown",
+      "filterMany": "{count} apps shown"
+    },
+    {
+      "code": "zh-Hans",
+      "prefix": "/zh-hans",
+      "name": "简体中文",
+      "choose": "选择语言",
+      "filterOne": "显示 {count} 款 App",
+      "filterMany": "显示 {count} 款 App"
+    },
+    {
+      "code": "zh-Hant",
+      "prefix": "/zh-hant",
+      "name": "繁體中文",
+      "choose": "選擇語言",
+      "filterOne": "顯示 {count} 款 App",
+      "filterMany": "顯示 {count} 款 App"
+    },
+    {
+      "code": "es",
+      "prefix": "/es",
+      "name": "Español",
+      "choose": "Elegir idioma",
+      "filterOne": "{count} app disponible",
+      "filterMany": "{count} apps disponibles"
+    },
+    {
+      "code": "ja",
+      "prefix": "/ja",
+      "name": "日本語",
+      "choose": "言語を選択",
+      "filterOne": "{count} 件のアプリ",
+      "filterMany": "{count} 件のアプリ"
+    },
+    {
+      "code": "de",
+      "prefix": "/de",
+      "name": "Deutsch",
+      "choose": "Sprache wählen",
+      "filterOne": "{count} App angezeigt",
+      "filterMany": "{count} Apps angezeigt"
+    },
+    {
+      "code": "fr",
+      "prefix": "/fr",
+      "name": "Français",
+      "choose": "Choisir la langue",
+      "filterOne": "{count} app affichée",
+      "filterMany": "{count} apps affichées"
+    }
+  ]
+}

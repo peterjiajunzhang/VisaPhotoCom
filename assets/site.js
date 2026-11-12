@@ -15,8 +15,8 @@ filterButtons.forEach((button) => {
       if (visible) visibleCount += 1;
     });
     document.querySelector("#filter-status").textContent =
-      document.documentElement.lang === "zh-Hans"
-        ? `显示 ${visibleCount} 款 App`
-        : `${visibleCount} ${visibleCount === 1 ? "app" : "apps"} shown`;
+      (visibleCount === 1
+        ? document.querySelector("#filter-status").dataset.countOne
+        : document.querySelector("#filter-status").dataset.countMany).replace("{count}", visibleCount);
   });
 });

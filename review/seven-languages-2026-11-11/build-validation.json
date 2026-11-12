@@ -1,0 +1,14 @@
+{
+  "repeatBuildIdentical": true,
+  "missingTranslationFailsBeforeOutput": true,
+  "fileHashes": {
+    "index.html": "6ce4ca057859ab6b5f71041324ada059062a4a3ddd7a067fa9b31c03a75925e2",
+    "zh-hans/index.html": "a0e935f3595e4fffcd1c47c787d180b6ca1011ff83e6429b0f35413fb77e7824",
+    "zh-hant/index.html": "af7eab817d223523affc5c383b5cb20db3a5eb81d9632e0ab5571eaf629d6fc8",
+    "es/index.html": "86fdde2744e08b1bf83604727a3b2927a1d63e2c4a04deeab360eb2c7631bbe8",
+    "ja/index.html": "c88ba17af93a155e5a4cd0c9922ff4574b87f5fd7038dd14d0ac0912a40798dd",
+    "de/index.html": "b12355a807aa7496337b14c2408a703fc78717e5c226cbbef4b9b103c91ae21d",
+    "fr/index.html": "250c2a961dd1a865f42d9d3ed4515ea61b685424233d038003d6ecbacb5abc98",
+    "sitemap.xml": "729e2b41f69583098e3a81ac2ca935bb47a9cae13049fd83a69f993d12180b8c"
+  }
+}

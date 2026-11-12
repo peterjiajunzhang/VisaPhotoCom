@@ -1,0 +1,899 @@
+{
+  "viewports": [
+    {
+      "site": "root",
+      "path": "/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "language": "en",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 228.125,
+        "right": 298,
+        "top": 16,
+        "width": 69.875,
+        "x": 228.125,
+        "y": 16
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "language": "en",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 298.125,
+        "right": 368,
+        "top": 16,
+        "width": 69.875,
+        "x": 298.125,
+        "y": 16
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "language": "en",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 663.0234375,
+        "right": 740,
+        "top": 21.25,
+        "width": 76.9765625,
+        "x": 663.0234375,
+        "y": 21.25
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "language": "en",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1195.0234375,
+        "right": 1272,
+        "top": 21.25,
+        "width": 76.9765625,
+        "x": 1195.0234375,
+        "y": 21.25
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hans",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 223.6796875,
+        "right": 298,
+        "top": 16,
+        "width": 74.3203125,
+        "x": 223.6796875,
+        "y": 16
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hans",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 293.6796875,
+        "right": 368,
+        "top": 16,
+        "width": 74.3203125,
+        "x": 293.6796875,
+        "y": 16
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hans",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 657.6796875,
+        "right": 740,
+        "top": 21.25,
+        "width": 82.3203125,
+        "x": 657.6796875,
+        "y": 21.25
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/zh-hans/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hans",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1189.6796875,
+        "right": 1272,
+        "top": 21.25,
+        "width": 82.3203125,
+        "x": 1189.6796875,
+        "y": 21.25
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "site": "root",
+      "path": "/zh-hant/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hant",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 223.6796875,
+        "right": 298,
+        "top": 16,
+        "width": 74.3203125,
+        "x": 223.6796875,
+        "y": 16
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/zh-hant/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hant",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 293.6796875,
+        "right": 368,
+        "top": 16,
+        "width": 74.3203125,
+        "x": 293.6796875,
+        "y": 16
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/zh-hant/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hant",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 657.6796875,
+        "right": 740,
+        "top": 21.25,
+        "width": 82.3203125,
+        "x": 657.6796875,
+        "y": 21.25
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/zh-hant/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "language": "zh-Hant",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1189.6796875,
+        "right": 1272,
+        "top": 21.25,
+        "width": 82.3203125,
+        "x": 1189.6796875,
+        "y": 21.25
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "site": "root",
+      "path": "/es/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "language": "es",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 224.5859375,
+        "right": 298,
+        "top": 16,
+        "width": 73.4140625,
+        "x": 224.5859375,
+        "y": 16
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/es/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "language": "es",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 294.5859375,
+        "right": 368,
+        "top": 16,
+        "width": 73.4140625,
+        "x": 294.5859375,
+        "y": 16
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/es/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "language": "es",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 659.1953125,
+        "right": 740,
+        "top": 21.25,
+        "width": 80.8046875,
+        "x": 659.1953125,
+        "y": 21.25
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/es/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "language": "es",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1191.1953125,
+        "right": 1272,
+        "top": 21.25,
+        "width": 80.8046875,
+        "x": 1191.1953125,
+        "y": 21.25
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "site": "root",
+      "path": "/ja/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "language": "ja",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 235.6796875,
+        "right": 298,
+        "top": 16,
+        "width": 62.3203125,
+        "x": 235.6796875,
+        "y": 16
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/ja/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "language": "ja",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 305.6796875,
+        "right": 368,
+        "top": 16,
+        "width": 62.3203125,
+        "x": 305.6796875,
+        "y": 16
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/ja/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "language": "ja",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 670.6796875,
+        "right": 740,
+        "top": 21.25,
+        "width": 69.3203125,
+        "x": 670.6796875,
+        "y": 21.25
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/ja/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "language": "ja",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1202.6796875,
+        "right": 1272,
+        "top": 21.25,
+        "width": 69.3203125,
+        "x": 1202.6796875,
+        "y": 21.25
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "site": "root",
+      "path": "/de/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "language": "de",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 222.171875,
+        "right": 298,
+        "top": 16,
+        "width": 75.828125,
+        "x": 222.171875,
+        "y": 16
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/de/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "language": "de",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 292.171875,
+        "right": 368,
+        "top": 16,
+        "width": 75.828125,
+        "x": 292.171875,
+        "y": 16
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/de/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "language": "de",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 656.578125,
+        "right": 740,
+        "top": 21.25,
+        "width": 83.421875,
+        "x": 656.578125,
+        "y": 21.25
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/de/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "language": "de",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1188.578125,
+        "right": 1272,
+        "top": 21.25,
+        "width": 83.421875,
+        "x": 1188.578125,
+        "y": 21.25
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "site": "root",
+      "path": "/fr/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "language": "fr",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 221.0234375,
+        "right": 298,
+        "top": 16,
+        "width": 76.9765625,
+        "x": 221.0234375,
+        "y": 16
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "root",
+      "path": "/fr/",
+      "broken": [],
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "language": "fr",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 48,
+        "height": 32,
+        "left": 291.0234375,
+        "right": 368,
+        "top": 16,
+        "width": 76.9765625,
+        "x": 291.0234375,
+        "y": 16
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "root",
+      "path": "/fr/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "language": "fr",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 655.4140625,
+        "right": 740,
+        "top": 21.25,
+        "width": 84.5859375,
+        "x": 655.4140625,
+        "y": 21.25
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "root",
+      "path": "/fr/",
+      "broken": [],
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "language": "fr",
+      "localeCount": 7,
+      "menu": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1187.4140625,
+        "right": 1272,
+        "top": 21.25,
+        "width": 84.5859375,
+        "x": 1187.4140625,
+        "y": 21.25
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "articleLanguageSwitches": [
+    {
+      "selected": "简体中文",
+      "url": "http://127.0.0.1:8748/zh-hans/guides/ds-160-photo-upload-failed.html",
+      "lang": "zh-Hans",
+      "title": "美国签证照片上传失败怎么办？"
+    },
+    {
+      "selected": "繁體中文",
+      "url": "http://127.0.0.1:8748/zh-hant/guides/ds-160-photo-upload-failed.html",
+      "lang": "zh-Hant",
+      "title": "美國簽證照片上傳失敗怎麼辦？"
+    },
+    {
+      "selected": "Español",
+      "url": "http://127.0.0.1:8748/es/guides/ds-160-photo-upload-failed.html",
+      "lang": "es",
+      "title": "¿Falló la carga en el DS-160? Comprueba el archivo y la foto"
+    },
+    {
+      "selected": "日本語",
+      "url": "http://127.0.0.1:8748/ja/guides/ds-160-photo-upload-failed.html",
+      "lang": "ja",
+      "title": "DS-160写真のアップロード失敗：ファイルと元写真の確認"
+    },
+    {
+      "selected": "Deutsch",
+      "url": "http://127.0.0.1:8748/de/guides/ds-160-photo-upload-failed.html",
+      "lang": "de",
+      "title": "DS-160-Upload fehlgeschlagen? Datei und Foto prüfen"
+    },
+    {
+      "selected": "Français",
+      "url": "http://127.0.0.1:8748/fr/guides/ds-160-photo-upload-failed.html",
+      "lang": "fr",
+      "title": "Échec de l’envoi DS-160 ? Vérifications du fichier et de la photo"
+    },
+    {
+      "selected": "English",
+      "url": "http://127.0.0.1:8748/guides/ds-160-photo-upload-failed.html",
+      "lang": "en",
+      "title": "DS-160 Photo Upload Failed? File & Photo Checks"
+    }
+  ],
+  "localizedFilters": [
+    {
+      "prefix": "",
+      "status": "1 app shown",
+      "visibleCards": 1
+    },
+    {
+      "prefix": "/zh-hans",
+      "status": "显示 1 款 App",
+      "visibleCards": 1
+    },
+    {
+      "prefix": "/zh-hant",
+      "status": "顯示 1 款 App",
+      "visibleCards": 1
+    },
+    {
+      "prefix": "/es",
+      "status": "1 app disponible",
+      "visibleCards": 1
+    },
+    {
+      "prefix": "/ja",
+      "status": "1 件のアプリ",
+      "visibleCards": 1
+    },
+    {
+      "prefix": "/de",
+      "status": "1 App angezeigt",
+      "visibleCards": 1
+    },
+    {
+      "prefix": "/fr",
+      "status": "1 app affichée",
+      "visibleCards": 1
+    }
+  ],
+  "consoleErrors": [],
+  "scope": "Seven website languages. Screenshots remain actual English iPhone UI. Policies remain canonical English pages; support uses existing locale fragments. Chrome viewport QA, no device purchase or installation."
+}

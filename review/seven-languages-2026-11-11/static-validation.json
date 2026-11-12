@@ -1,0 +1,50 @@
+{
+  "origin": "https://visaphoto1tap.com",
+  "pages": [
+    {
+      "path": "/",
+      "language": "en",
+      "bytes": 17308,
+      "title": "\n      Visa Photo 1-Tap — Photo Preparation Apps for iPhone & Android\n    "
+    },
+    {
+      "path": "/zh-hans/",
+      "language": "zh-Hans",
+      "bytes": 16688,
+      "title": " Visa Photo 1-Tap — iPhone 与 Android 签证照片 App "
+    },
+    {
+      "path": "/zh-hant/",
+      "language": "zh-Hant",
+      "bytes": 16694,
+      "title": " Visa Photo 1-Tap — iPhone 與 Android 簽證照片 App "
+    },
+    {
+      "path": "/es/",
+      "language": "es",
+      "bytes": 17170,
+      "title": " Visa Photo 1-Tap — Apps de fotos de visado para iPhone y Android "
+    },
+    {
+      "path": "/ja/",
+      "language": "ja",
+      "bytes": 17815,
+      "title": " Visa Photo 1-Tap — iPhone・Android向けビザ写真アプリ "
+    },
+    {
+      "path": "/de/",
+      "language": "de",
+      "bytes": 17228,
+      "title": " Visa Photo 1-Tap — Visumfoto-Apps für iPhone und Android "
+    },
+    {
+      "path": "/fr/",
+      "language": "fr",
+      "bytes": 17657,
+      "title": " Visa Photo 1-Tap — Apps de photos de visa pour iPhone et Android "
+    }
+  ],
+  "internalReferencesChecked": 343,
+  "sitemapURLs": 7,
+  "errors": []
+}
