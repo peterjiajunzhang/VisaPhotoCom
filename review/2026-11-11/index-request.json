@@ -1,0 +1,20 @@
+{
+  "site": "https://visaphoto1tap.com/",
+  "observedAt": "2026-11-12T00:52:57.221Z",
+  "result": "check_circle\nIndexing requested\nURL was added to a priority crawl queue. Submitting a page multiple times will not change its queue position or priority. Learn more.\nDismiss",
+  "rootSitemapSubmitted": true,
+  "googleAiSetting": "Include",
+  "coverage": {
+    "updated": "2026-11-05",
+    "indexed": 1,
+    "crawledNotIndexed": 12,
+    "discoveredNotIndexed": 5,
+    "redirectExclusions": 0
+  },
+  "bingResubmission": {
+    "site": "us.visaphoto1tap.com",
+    "displayedSubmitDate": "11/12/2026",
+    "status": "Processing",
+    "displayedKnownUrls": 6
+  }
+}

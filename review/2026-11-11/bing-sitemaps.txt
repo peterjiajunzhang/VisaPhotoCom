@@ -1,0 +1,39 @@
+Sitemaps
+Submit sitemap
+Known sitemaps
+1
+Sitemaps with errors
+0
+Sitemaps with warnings
+0
+Total URLs discovered
+6
+Sitemap details
+
+Type:All
+
+
+Status:All
+
+Download all
+
+select all items
+Sitemap URL
+Last submit
+Last crawl
+Status
+URLs discovered
+
+Action
+
+https://us.visaphoto1tap.com/sitemap.xml
+Sitemap
+
+
+11/5/2026
+Submitted
+11/5/2026
+Success
+6
+
+1 row

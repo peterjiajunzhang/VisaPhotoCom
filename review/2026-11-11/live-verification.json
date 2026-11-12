@@ -1,0 +1,72 @@
+{
+  "resources": [
+    {
+      "url": "https://visaphoto1tap.com/",
+      "status": 200,
+      "sha256": "bf3333bc585e639cee6661148f6a60ab73efeda04d5a00b97333ef16723cb31a"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/site.css",
+      "status": 200,
+      "sha256": "5c77a8d56d7ef89f223a5767ba966405dc99fe5e0b7c968dfa65d545da124e90"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/site.js",
+      "status": 200,
+      "sha256": "c53a94d1046ef947c2f60424df8115788b18c699fb9c4514deca973737958e2b"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/02-before-native.webp",
+      "status": 200,
+      "sha256": "ae6f0d06a8a5d308f832ad8c79d082a14d425dc042564ef91c1bb833bcaddc5b"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/02-after-native.webp",
+      "status": 200,
+      "sha256": "6760c704a24ec5fc86c404c7b00ca63132690f36d9e4a3d18136ff4288cbb98f"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/app-store.svg",
+      "status": 200,
+      "sha256": "a26fc5b38380272c92e9019a2eb8b45542a66814b3e2b203772db8904b9fb99f"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/google-play.png",
+      "status": 200,
+      "sha256": "f72611e2df8e88204009fd896d05d5e8e83c77009c63943bbffa169559934849"
+    },
+    {
+      "url": "https://visaphoto1tap.com/sitemap.xml",
+      "status": 200,
+      "sha256": "267d512be90f8ac69e070ca607bb8d50e044c1b38064ffdb6e44e0c5ed23128a"
+    },
+    {
+      "url": "https://visaphoto1tap.com/robots.txt",
+      "status": 200,
+      "sha256": "1b399f3853451fac745d316a0bcf388325ec193b3b406a240d5b23c5b54676be"
+    }
+  ],
+  "simulatedUserAgents": [
+    {
+      "userAgent": "Googlebot",
+      "status": 200,
+      "sameBody": true
+    },
+    {
+      "userAgent": "bingbot",
+      "status": 200,
+      "sameBody": true
+    },
+    {
+      "userAgent": "OAI-SearchBot",
+      "status": 200,
+      "sameBody": true
+    },
+    {
+      "userAgent": "Claude-SearchBot",
+      "status": 200,
+      "sameBody": true
+    }
+  ],
+  "scope": "Simulated UA requests, not requests from verified crawler IPs."
+}

@@ -1,0 +1,32 @@
+Add a new sitemap
+Enter sitemap URL
+SUBMIT
+Submitted sitemaps
+
+Sitemap
+	Type
+	Submitted
+	Last read
+	Status
+	
+Discovered pages	
+Discovered videos	
+https://visaphoto1tap.com/sitemap.xml	Unknown	Nov 11, 2026		Couldn't fetch	0	0	
+https://us.visaphoto1tap.com/sitemap.xml	Sitemap	Nov 4, 2026	Nov 10, 2026	Success	8	0	
+https://vietnam.visaphoto1tap.com/sitemap.xml	Sitemap	Jul 8, 2026	Jul 15, 2026	Success	2	0	
+https://uk.visaphoto1tap.com/sitemap.xml	Sitemap	Jul 7, 2026	Oct 17, 2026	Success	2	0	
+https://canada.visaphoto1tap.com/sitemap.xml	Sitemap	Jul 7, 2026	Jul 21, 2026	Success	2	0	
+https://japan.visaphoto1tap.com/sitemap.xml	Sitemap	Jul 7, 2026	Jul 12, 2026	Success	2	0	
+https://india.visaphoto1tap.com/sitemap.xml	Sitemap	Jul 7, 2026	Nov 11, 2026	Success	2	0	
+https://schengen.visaphoto1tap.com/sitemap.xml	Sitemap	Jul 7, 2026	Nov 8, 2026	Success	2	0	
+https://china.visaphoto1tap.com/sitemap.xml	Sitemap	Jul 7, 2026	Jul 14, 2026	Success	2	0	
+Rows per page:
+5
+10
+25
+50
+100
+250
+500
+1-9 of 9
+
