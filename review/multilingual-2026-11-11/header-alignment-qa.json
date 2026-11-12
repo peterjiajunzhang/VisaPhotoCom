@@ -1,0 +1,213 @@
+{
+  "issue": "Root FAQ details padding affected the language control; reset menu-specific spacing and center header items.",
+  "checks": [
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/",
+      "control": {
+        "bottom": 48,
+        "height": 32,
+        "left": 228.125,
+        "right": 298,
+        "top": 16,
+        "width": 69.875,
+        "x": 228.125,
+        "y": 16
+      },
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/",
+      "control": {
+        "bottom": 48,
+        "height": 32,
+        "left": 298.125,
+        "right": 368,
+        "top": 16,
+        "width": 69.875,
+        "x": 298.125,
+        "y": 16
+      },
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/",
+      "control": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 663.0234375,
+        "right": 740,
+        "top": 21.25,
+        "width": 76.9765625,
+        "x": 663.0234375,
+        "y": 21.25
+      },
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/",
+      "control": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1195.0234375,
+        "right": 1272,
+        "top": 21.25,
+        "width": 76.9765625,
+        "x": 1195.0234375,
+        "y": 21.25
+      },
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/zh-hans/",
+      "control": {
+        "bottom": 48,
+        "height": 32,
+        "left": 223.6796875,
+        "right": 298,
+        "top": 16,
+        "width": 74.3203125,
+        "x": 223.6796875,
+        "y": 16
+      },
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 320,
+        "top": 0,
+        "width": 320,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/zh-hans/",
+      "control": {
+        "bottom": 48,
+        "height": 32,
+        "left": 293.6796875,
+        "right": 368,
+        "top": 16,
+        "width": 74.3203125,
+        "x": 293.6796875,
+        "y": 16
+      },
+      "header": {
+        "bottom": 65,
+        "height": 65,
+        "left": 0,
+        "right": 390,
+        "top": 0,
+        "width": 390,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/zh-hans/",
+      "control": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 657.6796875,
+        "right": 740,
+        "top": 21.25,
+        "width": 82.3203125,
+        "x": 657.6796875,
+        "y": 21.25
+      },
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 768,
+        "top": 0,
+        "width": 768,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "site": "http://127.0.0.1:8747",
+      "path": "/zh-hans/",
+      "control": {
+        "bottom": 56.75,
+        "height": 35.5,
+        "left": 1189.6796875,
+        "right": 1272,
+        "top": 21.25,
+        "width": 82.3203125,
+        "x": 1189.6796875,
+        "y": 21.25
+      },
+      "header": {
+        "bottom": 79,
+        "height": 79,
+        "left": 0,
+        "right": 1440,
+        "top": 0,
+        "width": 1440,
+        "x": 0,
+        "y": 0
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ]
+}

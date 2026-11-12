@@ -1,0 +1,42 @@
+{
+  "commit": "e4cefc3fbd3fe4cabaa15e0a3478623c58c3fdea",
+  "files": [
+    {
+      "url": "https://visaphoto1tap.com/",
+      "status": 200,
+      "matches": true,
+      "sha256": "4f4f646d35521e931803f96e3b4c1fe7023bbdb3b270164d92cf3e88378f65c6"
+    },
+    {
+      "url": "https://visaphoto1tap.com/zh-hans/",
+      "status": 200,
+      "matches": true,
+      "sha256": "079acb278e60e1ec95c6e508cb319af49333198817f6205c80ee45020bd54d0e"
+    },
+    {
+      "url": "https://visaphoto1tap.com/sitemap.xml",
+      "status": 200,
+      "matches": true,
+      "sha256": "337fec9438cadc148658457deeb9974d3620031ef53542259b2f6d4c30993832"
+    },
+    {
+      "url": "https://visaphoto1tap.com/robots.txt",
+      "status": 200,
+      "matches": true,
+      "sha256": "92a965bb242e2e5d00e452a0f64ad87909f938f20454cd4732e08f4be9e928b6"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/locales.css",
+      "status": 200,
+      "matches": true,
+      "sha256": "3c1904a4a0c0af9bf9796e6df7e36b9048944cc578b1f2ff8bdabd42031ebb57"
+    },
+    {
+      "url": "https://visaphoto1tap.com/assets/locales.js",
+      "status": 200,
+      "matches": true,
+      "sha256": "27f3c121a8dc579d154bf2cbfa146e97e1c13271cdcb7cf4be2e161e3e6cc2d6"
+    }
+  ],
+  "allMatch": true
+}
