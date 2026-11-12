@@ -15,3 +15,9 @@ Search Console on November 11 showed the root URL unknown to Google and no detec
 QA covers 320, 390, 768 and 1440 pixel Chrome viewports, filtering, FAQ, store-link targets, local assets, structured data and publication byte verification. Site acceptance visits belong to QA traffic. Search ranking and AI citation changes require observation after crawling.
 
 After deployment, Google accepted the new root sitemap and URL Inspection changed from unknown to Discovered - currently not indexed. One indexing request returned Indexing requested. Bing US accepted the updated eight-page sitemap for processing, retaining its previous six-page count pending recrawl. Bing AI sample citations remain zero. These are processing receipts and an observation starting point.
+
+## 2026-11-11 search follow-up
+
+Later URL Inspection now confirms the root URL is indexed, last crawled November 11 at 16:56:58 by Googlebot smartphone; fetch, crawl and indexing are allowed and the declared canonical is the inspected root URL. This supersedes the earlier same-day discovered-only observation above; it does not establish a search rank or an AI recommendation.
+
+A new Chinese troubleshooting link is added next to the existing English DS-160 guide. The US site now provides a self-canonical Chinese article with reciprocal language alternates and a clearer platform/privacy explanation. Evidence for the eighteen actual AI-product retest attempts, mode differences, one incomplete source expansion, Google/Bing URL states and comparable search windows is maintained in the application repository's dated marketing report. No product, pricing or platform availability claim changed on the root site.
