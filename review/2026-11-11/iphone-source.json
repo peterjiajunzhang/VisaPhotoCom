@@ -1,0 +1,42 @@
+{
+  "sourceRelease": "US iOS 1.1.5 screenshot preparation; pinned production source f776bec",
+  "sourceProvenance": "Marketing/US/appstore/versions/1.1.5/repair-en-US-6.5/captures/en-US/6.5/provenance.json",
+  "scope": "Existing native replay captures with fixture results and verified local no-charge StoreKit purchases; not fresh production purchases or device captures. Local source/output hashes, not remote App Store checksums.",
+  "gallery": "12 native saved exports, six different models; original order retained.",
+  "assets": [
+    {
+      "source": "Marketing/US/appstore/versions/1.1.5/repair-en-US-6.5/captures/en-US/6.5/02-before-native.png",
+      "sourceSha256": "799bc80f189b7563a10a4899a7f5e7d7c91d610340fdd44ceea4738d9c5aadc1",
+      "sourcePixels": [
+        1284,
+        2778
+      ],
+      "scene": "original input, before processing",
+      "output": "assets/iphone/02-before-native.webp",
+      "outputSha256": "ae6f0d06a8a5d308f832ad8c79d082a14d425dc042564ef91c1bb833bcaddc5b",
+      "bytes": 72404,
+      "transformation": "Whole native screenshot proportionally resized to 864 px wide and WebP encoded. No crop, retouch, watermark removal, UI or purchase-state change.",
+      "outputPixels": [
+        864,
+        1869
+      ]
+    },
+    {
+      "source": "Marketing/US/appstore/versions/1.1.5/repair-en-US-6.5/captures/en-US/6.5/02-after-native.png",
+      "sourceSha256": "b163e1ac62bbbda325e897c678332e3835cd2af3b3d2a79132c6fcfdd710c041",
+      "sourcePixels": [
+        1284,
+        2778
+      ],
+      "scene": "unlocked result after local StoreKit test purchase",
+      "output": "assets/iphone/02-after-native.webp",
+      "outputSha256": "6760c704a24ec5fc86c404c7b00ca63132690f36d9e4a3d18136ff4288cbb98f",
+      "bytes": 88840,
+      "transformation": "Whole native screenshot proportionally resized to 864 px wide and WebP encoded. No crop, retouch, watermark removal, UI or purchase-state change.",
+      "outputPixels": [
+        864,
+        1869
+      ]
+    }
+  ]
+}

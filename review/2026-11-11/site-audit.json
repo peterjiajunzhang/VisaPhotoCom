@@ -1,0 +1,65 @@
+[
+  {
+    "url": "https://visaphoto1tap.com/",
+    "status": 200,
+    "final": "https://visaphoto1tap.com/",
+    "canonical": "https://visaphoto1tap.com/",
+    "robotsMeta": null,
+    "h1": 1,
+    "broadComplianceClaims": true
+  },
+  {
+    "url": "https://us.visaphoto1tap.com/",
+    "status": 200,
+    "final": "https://us.visaphoto1tap.com/",
+    "canonical": "https://us.visaphoto1tap.com/",
+    "robotsMeta": null,
+    "h1": 1,
+    "broadComplianceClaims": false
+  },
+  {
+    "url": "https://china.visaphoto1tap.com/",
+    "status": 200,
+    "final": "https://china.visaphoto1tap.com/",
+    "canonical": "https://china.visaphoto1tap.com/",
+    "robotsMeta": null,
+    "h1": 1,
+    "broadComplianceClaims": false
+  },
+  {
+    "url": "https://schengen.visaphoto1tap.com/",
+    "status": 200,
+    "final": "https://schengen.visaphoto1tap.com/",
+    "canonical": "https://schengen.visaphoto1tap.com/",
+    "robotsMeta": null,
+    "h1": 1,
+    "broadComplianceClaims": false
+  },
+  {
+    "url": "https://india.visaphoto1tap.com/",
+    "status": 200,
+    "final": "https://india.visaphoto1tap.com/",
+    "canonical": "https://india.visaphoto1tap.com/",
+    "robotsMeta": null,
+    "h1": 1,
+    "broadComplianceClaims": false
+  },
+  {
+    "url": "https://japan.visaphoto1tap.com/",
+    "status": 200,
+    "final": "https://japan.visaphoto1tap.com/",
+    "canonical": "https://japan.visaphoto1tap.com/",
+    "robotsMeta": null,
+    "h1": 1,
+    "broadComplianceClaims": false
+  },
+  {
+    "url": "https://canada.visaphoto1tap.com/",
+    "status": 200,
+    "final": "https://canada.visaphoto1tap.com/",
+    "canonical": "https://canada.visaphoto1tap.com/",
+    "robotsMeta": null,
+    "h1": 1,
+    "broadComplianceClaims": false
+  }
+]

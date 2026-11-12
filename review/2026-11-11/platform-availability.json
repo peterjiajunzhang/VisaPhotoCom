@@ -1,0 +1,56 @@
+[
+  {
+    "name": "US Visa Photo",
+    "country": "US",
+    "code": "us",
+    "description": "Square photo preparation with file size, framing and lighting checks.",
+    "url": "https://us.visaphoto1tap.com/",
+    "apple": "https://apps.apple.com/us/app/us-visa-photo/id6761959861",
+    "android": "https://play.google.com/store/apps/details?id=com.loop.usvisaphoto"
+  },
+  {
+    "name": "China Visa Photo",
+    "country": "China",
+    "code": "china",
+    "description": "A dedicated app for Chinese visa photo preparation.",
+    "url": "https://china.visaphoto1tap.com/",
+    "apple": "https://apps.apple.com/app/id6769270493",
+    "android": null
+  },
+  {
+    "name": "Schengen Visa Photo",
+    "country": "Schengen",
+    "code": "schengen",
+    "description": "Photo preparation for your selected Schengen destination.",
+    "url": "https://schengen.visaphoto1tap.com/",
+    "apple": "https://apps.apple.com/app/id6769272474",
+    "android": null
+  },
+  {
+    "name": "India Visa Photo",
+    "country": "India",
+    "code": "india",
+    "description": "A dedicated workflow for Indian visa photo preparation.",
+    "url": "https://india.visaphoto1tap.com/",
+    "apple": "https://apps.apple.com/app/id6787617860",
+    "android": null
+  },
+  {
+    "name": "Japan Visa Photo",
+    "country": "Japan",
+    "code": "japan",
+    "description": "Photo preparation with Japan-specific sizing options.",
+    "url": "https://japan.visaphoto1tap.com/",
+    "apple": "https://apps.apple.com/app/id6787615980",
+    "android": null
+  },
+  {
+    "name": "Canada Visa Photo",
+    "country": "Canada",
+    "code": "canada",
+    "description": "A dedicated app for Canadian visa photo preparation.",
+    "url": "https://canada.visaphoto1tap.com/",
+    "apple": "https://apps.apple.com/app/id6787620585",
+    "android": null
+  }
+]

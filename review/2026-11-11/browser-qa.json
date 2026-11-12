@@ -1,0 +1,33 @@
+{
+  "matrix": [
+    {
+      "broken": [],
+      "client": 320,
+      "scroll": 320,
+      "width": 320
+    },
+    {
+      "broken": [],
+      "client": 390,
+      "scroll": 390,
+      "width": 390
+    },
+    {
+      "broken": [],
+      "client": 768,
+      "scroll": 768,
+      "width": 768
+    },
+    {
+      "broken": [],
+      "client": 1440,
+      "scroll": 1440,
+      "width": 1440
+    }
+  ],
+  "androidFilter": [
+    "US Visa Photo"
+  ],
+  "allFilter": 6,
+  "faqAllOpen": true
+}
