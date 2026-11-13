@@ -1,0 +1,46 @@
+{
+  "commit": "88932e6ec41269d98e4142413089b513a46068e7",
+  "allMatch": true,
+  "rows": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "zh-hans/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "zh-hant/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "es/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "ja/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "de/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "fr/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "matches": true
+    }
+  ]
+}
