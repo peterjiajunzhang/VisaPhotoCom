@@ -1,5 +1,21 @@
 # Visa Photo 1-Tap main website
 
+## 2026-11-12 Play campaign link contract (candidate)
+
+`play-campaigns.json` and `scripts/play_campaigns.py` are identical in the US and root repositories; keep both copies synchronized. The locale builder writes ordinary static badge links, so no JavaScript, cookie, SDK or new collector is required. The Play entity URL in JSON-LD and source citations stays clean. Existing iPhone campaign links and `acquisition-campaigns.json` are independent and unchanged.
+
+| Placement | utm_source | utm_medium | utm_campaign | utm_content |
+| --- | --- | --- | --- | --- |
+| US hero | us_website | website | us_home | hero |
+| US final download | us_website | website | us_home | footer |
+| US guides | us_website | website | us_guides | guide |
+| Root US card | root_website | website | root_country | us_card |
+
+All seven website languages use the same placement values; website language is available separately where Play reports it. The `referrer` value contains the URL-encoded four-key UTM query, nested once inside the Play URL for `com.loop.usvisaphoto`; no personal data is included. Run `/tmp/visa-growth-venv/bin/python scripts/build_locales.py` (or the documented locale environment) and `python scripts/check_growth.py .` after editing. Static checks establish link construction and page metadata, not Play reporting.
+
+Play Console's store listing performance reports describe UTM source and campaign dimensions, with source available under ads and referrals; minimum thresholds may group values as Other. Its current install clicks represent intent, not completed installations. Completed installation/acquisition statistics have separate definitions and must be read separately; do not sum them as a user funnel without matching cohorts. Medium and content are carried in the referrer but their appearance as Play Console dimensions is not promised. Install Referrer retrieval requires an app integration; this change adds none and does not establish per-install attribution. QA clicks must be recorded separately. Confirm reporting after publication with real traffic rather than assuming it works. See [Play reporting](https://support.google.com/googleplay/android-developer/answer/9859173), [monthly export definitions](https://support.google.com/googleplay/android-developer/answer/6135870), and [Install Referrer](https://developer.android.com/google/play/installreferrer).
+
+
 2026-11-12 owner correction: the seven-language landing page focuses on demonstrations, destination/platform selection, free preview, pricing and official store downloads. Repeated editing/acceptance warnings were removed from the promotional workflow and FAQ. Complete scope remains on the linked requirements and privacy/pricing guides, with a direct footer privacy/pricing link. This changes placement and tone, not capabilities or acceptance claims. The description below remains the historical redesign record. Native images, official badge files, store destinations and platform availability are unchanged. Validation/publication: `review/copy-correction-2026-11-12/`.
 
 Static GitHub Pages site for https://visaphoto1tap.com/, published from main at the repository root.
