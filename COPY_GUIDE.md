@@ -1,5 +1,7 @@
 # Website copy rules
 
+2026-11-12 owner correction: The landing page explains product capabilities and helps visitors choose a store. Detailed editing and acceptance scope belongs on the linked requirements/privacy/pricing pages; do not repeat promotional warning blocks or add unsolicited browser utilities for SEO. Keep claims factual and preserve platform availability, price and privacy distinctions.
+
 The owner’s direction is factual, result-oriented product writing. Use concrete actions and outputs to show value. Keep instructions short and make the next action clear.
 
 - Image labels: Original / Result. Use the corresponding neutral translations. Do not rank an original against a preferred/better image.

@@ -1,5 +1,7 @@
 # Visa Photo 1-Tap main website
 
+2026-11-12 owner correction: the seven-language landing page focuses on demonstrations, destination/platform selection, free preview, pricing and official store downloads. Repeated editing/acceptance warnings were removed from the promotional workflow and FAQ. Complete scope remains on the linked requirements and privacy/pricing guides, with a direct footer privacy/pricing link. This changes placement and tone, not capabilities or acceptance claims. The description below remains the historical redesign record. Native images, official badge files, store destinations and platform availability are unchanged. Validation/publication: `review/copy-correction-2026-11-12/`.
+
 Static GitHub Pages site for https://visaphoto1tap.com/, published from main at the repository root.
 
 ## 2026-11-11 redesign
