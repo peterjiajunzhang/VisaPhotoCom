@@ -1,0 +1,69 @@
+{
+  "scope": "Demo sample pairs from the US Visa Photo website, used as illustrations in /guides/us-visa-photo-at-home-with-phone.html (en and zh-Hans). The US repository does not document how the original portraits were produced; the pages label them as demo samples, not application photos.",
+  "assets": [
+    {
+      "source": "USVisaPhotoCom origin/main demos/demo-02-original.png",
+      "sourceSha256": "ef0a99217bd3804cdb11151c427848bfcf64ca744523600004d5d44deeaf61c1",
+      "sourcePixels": [
+        1024,
+        682
+      ],
+      "output": "assets/guides/home-demo-02-original.webp",
+      "outputSha256": "f65e1b106594b1d21e2159b7f2d167e8f531aa02242d2c656c4d52f011152a37",
+      "outputPixels": [
+        800,
+        533
+      ],
+      "bytes": 13166,
+      "transformation": "Proportional resize and WebP encoding (cwebp -q 80). No crop, retouch or other change."
+    },
+    {
+      "source": "USVisaPhotoCom origin/main demos/demo-02-result.png",
+      "sourceSha256": "181079780ad97169f83aed5f4401d76bacaef371417420ebf72c8afc596e320d",
+      "sourcePixels": [
+        1200,
+        1200
+      ],
+      "output": "assets/guides/home-demo-02-result.webp",
+      "outputSha256": "337d40dfdabb5262dedc8ea23ab03e12e32c8278387fd996b104a5bd98b85392",
+      "outputPixels": [
+        600,
+        600
+      ],
+      "bytes": 15224,
+      "transformation": "Proportional resize and WebP encoding (cwebp -q 80). No crop, retouch or other change."
+    },
+    {
+      "source": "USVisaPhotoCom origin/main demos/demo-06-original.png",
+      "sourceSha256": "24f2a4bb2851576dc15e4b6d449fb445fd24666b40abb015d2ddfa925c261b38",
+      "sourcePixels": [
+        1024,
+        682
+      ],
+      "output": "assets/guides/home-demo-06-original.webp",
+      "outputSha256": "f272317618891913be3b6e0b4af0a70ea0494a3c1e7b9bb7417fa7e7fb18deec",
+      "outputPixels": [
+        800,
+        533
+      ],
+      "bytes": 24196,
+      "transformation": "Proportional resize and WebP encoding (cwebp -q 80). No crop, retouch or other change."
+    },
+    {
+      "source": "USVisaPhotoCom origin/main demos/demo-06-result.png",
+      "sourceSha256": "4dd5357ddfa6ffc588baeb4db8595a4295164b271e65cd5f25195c1d4e4212c5",
+      "sourcePixels": [
+        1200,
+        1200
+      ],
+      "output": "assets/guides/home-demo-06-result.webp",
+      "outputSha256": "575f2386a7cf0cc05305820f3546e3168e0980240cf98cfd594d71661f1c3546",
+      "outputPixels": [
+        600,
+        600
+      ],
+      "bytes": 23782,
+      "transformation": "Proportional resize and WebP encoding (cwebp -q 80). No crop, retouch or other change."
+    }
+  ]
+}

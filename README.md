@@ -1,5 +1,11 @@
 # Visa Photo 1-Tap main website
 
+## 2026-11-14 Guides batch 1 and search-first homepage titles (local branch, not deployed)
+
+`/guides/` and `/zh-hans/guides/` hold three problem-specific articles (China online visa photo upload, DS-160 upload errors, 2x2 photo at home) in English and Simplified Chinese only. They are hand-written HTML, not part of `build_locales.py`. Run `scripts/build_guides.py` (same BeautifulSoup environment) after editing: it regenerates each page's JSON-LD (Article/CollectionPage, FAQPage, BreadcrumbList) from the visible h1, meta description and FAQ section, adds the eight URLs to `sitemap.xml`, and checks canonical, en/zh-Hans/x-default hreflang, local links, fragments and images; `--check` fails on drift. Official sources were checked 2026-11-14 and are cited on each page. Example images and hashes: `assets/guides/provenance.json`.
+
+The homepage `<title>`/`og:title` changed from brand-first to a destination list in all seven languages, and the PHOTO GUIDES section gained one link to the guides (zh-Hans/zh-Hant link to `/zh-hans/guides/`, other languages to the English index; see `translated_url`). Locale `modified` is 2026-11-14. Pending owner approval of the titles; no deployment or search notification has been made.
+
 ## 2026-11-12 Play campaign link contract
 
 `play-campaigns.json` and `scripts/play_campaigns.py` are identical in the US and root repositories; keep both copies synchronized. The locale builder writes ordinary static badge links, so no JavaScript, cookie, SDK or new collector is required. The Play entity URL in JSON-LD and source citations stays clean. Existing iPhone campaign links and `acquisition-campaigns.json` are independent and unchanged.

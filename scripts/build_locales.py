@@ -21,6 +21,8 @@ def translated_url(url):
    path=path[len(prefix):] or '/';break
  u=u._replace(path=path)
  hosts={'visaphoto1tap.com':{'/'},'us.visaphoto1tap.com':{'/','/guides/','/guides/us-visa-photo-requirements.html','/guides/ds-160-photo-upload-failed.html','/guides/us-visa-photo-privacy-and-pricing.html'}}
+ # Root guides exist in English and Simplified Chinese only; Traditional Chinese readers get the Simplified version.
+ if u.netloc=='visaphoto1tap.com' and u.path=='/guides/':return urlunsplit((u.scheme,u.netloc,'/zh-hans/guides/' if LANG['code'] in ('zh-Hans','zh-Hant') else '/guides/',u.query,u.fragment))
  if u.netloc=='us.visaphoto1tap.com' and u.path=='/support.html':return urlunsplit((u.scheme,u.netloc,u.path,u.query,LANG['code']))
  if u.netloc in hosts and u.path in hosts[u.netloc]:return urlunsplit((u.scheme,u.netloc,PREFIX+u.path,u.query,u.fragment))
  if u.netloc=='us.visaphoto1tap.com' and u.path=='/guides/ds-160-photo-upload-failed-zh.html':return urlunsplit((u.scheme,u.netloc,PREFIX+'/guides/ds-160-photo-upload-failed.html',u.query,u.fragment))

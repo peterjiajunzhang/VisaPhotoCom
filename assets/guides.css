@@ -1,0 +1,206 @@
+/* Article and guide-index layout. Loaded after site.css on /guides/ pages only. */
+.article {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 36px 24px 72px;
+  font-size: 17px;
+  line-height: 1.72;
+}
+.article h1 {
+  font-size: clamp(30px, 4.6vw, 46px);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin: 10px 0 18px;
+}
+.article h2 {
+  font-size: clamp(23px, 2.6vw, 28px);
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  margin: 44px 0 12px;
+  scroll-margin-top: 90px;
+}
+.article h3 {
+  font-size: 18px;
+  margin: 26px 0 8px;
+}
+.article .eyebrow {
+  margin: 0;
+}
+.breadcrumb {
+  font-size: 13px;
+  color: #53677c;
+  margin: 0 0 20px;
+}
+.byline {
+  font-size: 13px;
+  color: #53677c;
+  margin: 0 0 18px;
+}
+.article .lede {
+  max-width: none;
+  font-size: 18px;
+}
+.answer,
+.toc,
+.app-note {
+  border: 1px solid #dce6ef;
+  border-radius: 16px;
+  padding: 20px 24px;
+  margin: 26px 0;
+  background: #f4f8fc;
+}
+.answer h2,
+.toc h2,
+.app-note h2 {
+  margin-top: 0;
+}
+.answer p:last-child,
+.app-note p:last-child {
+  margin-bottom: 0;
+}
+.app-note {
+  background: #fff;
+}
+.notice {
+  background: #fff7e8;
+  border: 1px solid #ecd6a6;
+  border-radius: 12px;
+  padding: 14px 18px;
+  color: #5d4317;
+  font-size: 15px;
+}
+/* site.css styles every <nav> as the header bar; reset it for in-article navigation. */
+.article nav {
+  display: block;
+  height: auto;
+}
+.article nav a {
+  text-decoration: underline;
+  color: #075fcc;
+}
+.toc ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.article li {
+  margin: 7px 0;
+}
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid #dce6ef;
+  border-radius: 12px;
+  margin: 18px 0 8px;
+}
+.article table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.55;
+}
+.article th,
+.article td {
+  text-align: left;
+  vertical-align: top;
+  padding: 11px 14px;
+  border-bottom: 1px solid #e4ebf1;
+}
+.article thead th {
+  background: #f4f8fc;
+}
+.article tr:last-child td,
+.article tr:last-child th {
+  border-bottom: 0;
+}
+.table-note {
+  font-size: 13px;
+  color: #53677c;
+}
+.pairs {
+  display: grid;
+  gap: 22px;
+  margin: 22px 0;
+}
+.pair {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  gap: 12px;
+  align-items: end;
+}
+.pair img {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid #dce6ef;
+}
+.pair figcaption {
+  grid-column: 1 / -1;
+  text-align: left;
+  font-size: 13px;
+  margin-top: 0;
+}
+.pair .image-label {
+  text-align: left;
+  margin-bottom: 6px;
+}
+.badges.guide-badges {
+  margin: 8px 0 0;
+}
+.faq-list h3 {
+  font-size: 18px;
+}
+.sources {
+  border-top: 1px solid #dce6ef;
+  margin-top: 40px;
+  padding-top: 10px;
+  font-size: 15px;
+}
+.sources li {
+  margin: 9px 0;
+}
+.related ul {
+  padding-left: 20px;
+}
+.guide-list {
+  list-style: none;
+  padding: 0;
+  margin: 26px 0;
+  display: grid;
+  gap: 18px;
+}
+.guide-list li {
+  border: 1px solid #dce6ef;
+  border-radius: 16px;
+  padding: 20px 22px;
+  margin: 0;
+}
+.guide-list h2 {
+  font-size: 21px;
+  margin: 0 0 6px;
+}
+.guide-list p {
+  margin: 0;
+  color: #53677c;
+}
+.guide-list .meta {
+  font-size: 13px;
+  margin-top: 8px;
+}
+@media (max-width: 700px) {
+  .article {
+    padding: 26px 18px 56px;
+    font-size: 16px;
+  }
+  .answer,
+  .toc,
+  .app-note {
+    padding: 16px 16px;
+  }
+  .article th,
+  .article td {
+    padding: 9px 10px;
+  }
+  .pair {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+}
