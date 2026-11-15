@@ -17,7 +17,9 @@ ORIGIN = 'https://visaphoto1tap.com'
 MODIFIED = '2026-11-14'
 LOCALES = [('en', ''), ('zh-Hans', '/zh-hans')]
 TOPICS = ['guides/index.html', 'guides/china-visa-photo-upload-failed.html',
-          'guides/ds-160-photo-upload-error.html', 'guides/us-visa-photo-at-home-with-phone.html']
+          'guides/ds-160-photo-upload-error.html', 'guides/us-visa-photo-at-home-with-phone.html',
+          'guides/india-e-visa-photo-requirements.html', 'guides/schengen-visa-photo-requirements-by-country.html',
+          'guides/dv-lottery-photo-requirements.html']
 PUBLISHER = {'@type': 'Organization', 'name': 'Visa Photo 1-Tap', 'url': ORIGIN + '/'}
 norm = lambda t: re.sub(r'\s+', ' ', t).strip()
 

@@ -204,3 +204,17 @@
     gap: 8px;
   }
 }
+.article table.wide {
+  min-width: 760px;
+}
+.table-hint {
+  display: none;
+  font-size: 13px;
+  color: #53677c;
+  margin: 0;
+}
+@media (max-width: 700px) {
+  .table-hint {
+    display: block;
+  }
+}
