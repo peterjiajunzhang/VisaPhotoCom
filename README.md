@@ -8,7 +8,7 @@ The homepage `<title>`/`og:title` changed from brand-first to a destination list
 
 ## 2026-11-12 Play campaign link contract
 
-`play-campaigns.json` and `scripts/play_campaigns.py` are identical in the US and root repositories; keep both copies synchronized. The locale builder writes ordinary static badge links, so no JavaScript, cookie, SDK or new collector is required. The Play entity URL in JSON-LD and source citations stays clean. Existing iPhone campaign links and `acquisition-campaigns.json` are independent and unchanged.
+The two sites share the same `scripts/play_campaigns.py` and four original campaign definitions; keep those common definitions synchronized. The root configuration additionally defines `root-guides-android` for the six bilingual US guide badges. The locale and guide builders write ordinary static badge links, so no JavaScript, cookie, SDK or new collector is required. The Play entity URL in JSON-LD and source citations stays clean. Existing iPhone campaign links and `acquisition-campaigns.json` are independent and unchanged.
 
 | Placement | utm_source | utm_medium | utm_campaign | utm_content |
 | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ The homepage `<title>`/`og:title` changed from brand-first to a destination list
 | US final download | us_website | website | us_home | footer |
 | US guides | us_website | website | us_guides | guide |
 | Root US card | root_website | website | root_country | us_card |
+| Root US guide badges | root_website | website | root_guides | guide |
 
 All seven website languages use the same placement values; website locale is not encoded. Play’s language dimension describes the device/store language and cannot reconstruct which website locale was visited. The `referrer` value contains the URL-encoded four-key UTM query, nested once inside the Play URL for `com.loop.usvisaphoto`; no personal data is included. Run `/tmp/visa-growth-venv/bin/python scripts/build_locales.py` (or the documented locale environment) and `python scripts/check_growth.py .` after editing. Static checks establish link construction and page metadata, not Play reporting.
 

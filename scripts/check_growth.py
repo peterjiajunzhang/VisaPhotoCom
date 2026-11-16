@@ -6,7 +6,7 @@ root=Path(sys.argv[1]);sys.path.insert(0,str(root/'scripts'))
 from play_campaigns import CONFIG,play_url
 c=json.loads((root/'localization/config.json').read_text());origin=c['origin'];is_us='us.' in origin
 assert CONFIG['package']=='com.loop.usvisaphoto' and CONFIG['medium']=='website'
-assert CONFIG['placements']=={'home-android':{'source':'us_website','campaign':'us_home','content':'hero'},'home-footer-android':{'source':'us_website','campaign':'us_home','content':'footer'},'guide-android':{'source':'us_website','campaign':'us_guides','content':'guide'},'root-country-android':{'source':'root_website','campaign':'root_country','content':'us_card'}}
+assert CONFIG['placements']=={'home-android':{'source':'us_website','campaign':'us_home','content':'hero'},'home-footer-android':{'source':'us_website','campaign':'us_home','content':'footer'},'guide-android':{'source':'us_website','campaign':'us_guides','content':'guide'},'root-country-android':{'source':'root_website','campaign':'root_country','content':'us_card'},'root-guides-android':{'source':'root_website','campaign':'root_guides','content':'guide'}}
 sm={e.find('{*}loc').text:e.find('{*}lastmod').text for e in ET.parse(root/'sitemap.xml').getroot()}
 n=0
 for loc in c['locales']:

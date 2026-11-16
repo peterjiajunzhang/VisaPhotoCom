@@ -9,7 +9,9 @@ Usage: python scripts/build_guides.py          (write)
 """
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
+import html as html_lib
 import json, re, sys, xml.etree.ElementTree as ET
+from play_campaigns import play_url
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +22,7 @@ TOPICS = ['guides/index.html', 'guides/china-visa-photo-upload-failed.html',
           'guides/ds-160-photo-upload-error.html', 'guides/us-visa-photo-at-home-with-phone.html',
           'guides/india-e-visa-photo-requirements.html', 'guides/schengen-visa-photo-requirements-by-country.html',
           'guides/dv-lottery-photo-requirements.html']
+PLAY_TOPICS = {'guides/ds-160-photo-upload-error.html', 'guides/us-visa-photo-at-home-with-phone.html', 'guides/dv-lottery-photo-requirements.html'}
 PUBLISHER = {'@type': 'Organization', 'name': 'Visa Photo 1-Tap', 'url': ORIGIN + '/'}
 norm = lambda t: re.sub(r'\s+', ' ', t).strip()
 
@@ -125,13 +128,17 @@ def main():
         for lang, prefix in LOCALES:
             path = ROOT / (prefix.lstrip('/') + '/' + f if prefix else f)
             html = path.read_text()
+            if f in PLAY_TOPICS:
+                pattern = r'(<a\b[^>]*class="store play"[^>]*href=")[^"]*(")'
+                html, count = re.subn(pattern, lambda m: m.group(1) + html_lib.escape(play_url('root-guides-android'), quote=True) + m.group(2), html)
+                assert count == 1, (path, 'expected one Play badge')
             soup = BeautifulSoup(html, 'html.parser')
             data = json.dumps(schema(soup, f, prefix, lang), ensure_ascii=False, separators=(', ', ': '))
             new = re.sub(r'(<script type="application/ld\+json" data-guide-schema="">)(.*?)(</script>)',
                          lambda m: m.group(1) + data + m.group(3), html, count=1, flags=re.S)
             assert new != html or data in html, (path, 'schema block missing')
             check(BeautifulSoup(new, 'html.parser'), f, prefix, lang, problems)
-            if new != html:
+            if new != path.read_text():
                 changed.append(str(path.relative_to(ROOT)))
                 if not checking:
                     path.write_text(new)

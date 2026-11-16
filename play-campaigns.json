@@ -21,6 +21,11 @@
       "source": "root_website",
       "campaign": "root_country",
       "content": "us_card"
+    },
+    "root-guides-android": {
+      "source": "root_website",
+      "campaign": "root_guides",
+      "content": "guide"
     }
   }
 }
