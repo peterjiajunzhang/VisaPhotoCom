@@ -1,0 +1,168 @@
+{
+  "checkedAtUTC": "2026-11-16T17:12:54.691393+00:00",
+  "contentCommit": "5871c7ea7eca78f30889cc8329a060411b05a83e",
+  "run": "https://github.com/peterjiajunzhang/VisaPhotoCom/actions/runs/43915769559",
+  "results": [
+    {
+      "path": "guides/ds-160-photo-upload-error.html",
+      "url": "https://visaphoto1tap.com/guides/ds-160-photo-upload-error.html",
+      "status": 200,
+      "match": true,
+      "sha256": "1ffb83d652483c963a8ae6704c42893752ca3baec7bdab7a860738d4db7eb1ba",
+      "referrer": {
+        "utm_source": [
+          "root_website"
+        ],
+        "utm_medium": [
+          "website"
+        ],
+        "utm_campaign": [
+          "root_guides"
+        ],
+        "utm_content": [
+          "guide"
+        ]
+      },
+      "badge": "/assets/google-play.png"
+    },
+    {
+      "path": "guides/us-visa-photo-at-home-with-phone.html",
+      "url": "https://visaphoto1tap.com/guides/us-visa-photo-at-home-with-phone.html",
+      "status": 200,
+      "match": true,
+      "sha256": "0f21d98c219b23769db5559e237bd1ccbca5a6d8513291dd7ec63a40e85938b6",
+      "referrer": {
+        "utm_source": [
+          "root_website"
+        ],
+        "utm_medium": [
+          "website"
+        ],
+        "utm_campaign": [
+          "root_guides"
+        ],
+        "utm_content": [
+          "guide"
+        ]
+      },
+      "badge": "/assets/google-play.png"
+    },
+    {
+      "path": "guides/dv-lottery-photo-requirements.html",
+      "url": "https://visaphoto1tap.com/guides/dv-lottery-photo-requirements.html",
+      "status": 200,
+      "match": true,
+      "sha256": "efd26a72f91cfca1288295108db154b5bb1277260cbdf27f9858b4332f5fb951",
+      "referrer": {
+        "utm_source": [
+          "root_website"
+        ],
+        "utm_medium": [
+          "website"
+        ],
+        "utm_campaign": [
+          "root_guides"
+        ],
+        "utm_content": [
+          "guide"
+        ]
+      },
+      "badge": "/assets/google-play.png"
+    },
+    {
+      "path": "zh-hans/guides/ds-160-photo-upload-error.html",
+      "url": "https://visaphoto1tap.com/zh-hans/guides/ds-160-photo-upload-error.html",
+      "status": 200,
+      "match": true,
+      "sha256": "4c3668498d5b8c35c051ce2b33a95bbcbc2332400d5f4e6b5fb7fed5b3ace107",
+      "referrer": {
+        "utm_source": [
+          "root_website"
+        ],
+        "utm_medium": [
+          "website"
+        ],
+        "utm_campaign": [
+          "root_guides"
+        ],
+        "utm_content": [
+          "guide"
+        ]
+      },
+      "badge": "/assets/google-play.png"
+    },
+    {
+      "path": "zh-hans/guides/us-visa-photo-at-home-with-phone.html",
+      "url": "https://visaphoto1tap.com/zh-hans/guides/us-visa-photo-at-home-with-phone.html",
+      "status": 200,
+      "match": true,
+      "sha256": "b67a0f8e038996810ee4d5f08bf5cf2fcea964ac588c4d0ae79a61f7dc65c388",
+      "referrer": {
+        "utm_source": [
+          "root_website"
+        ],
+        "utm_medium": [
+          "website"
+        ],
+        "utm_campaign": [
+          "root_guides"
+        ],
+        "utm_content": [
+          "guide"
+        ]
+      },
+      "badge": "/assets/google-play.png"
+    },
+    {
+      "path": "zh-hans/guides/dv-lottery-photo-requirements.html",
+      "url": "https://visaphoto1tap.com/zh-hans/guides/dv-lottery-photo-requirements.html",
+      "status": 200,
+      "match": true,
+      "sha256": "725b7db7203bf2e9c36e61d83c86675aae16ba36b63624f0351d4ba4df9e14cb",
+      "referrer": {
+        "utm_source": [
+          "root_website"
+        ],
+        "utm_medium": [
+          "website"
+        ],
+        "utm_campaign": [
+          "root_guides"
+        ],
+        "utm_content": [
+          "guide"
+        ]
+      },
+      "badge": "/assets/google-play.png"
+    },
+    {
+      "path": "index.html",
+      "url": "https://visaphoto1tap.com/",
+      "status": 200,
+      "match": true,
+      "sha256": "5afcdbdb819625926176d565a3ae25024c2e752b7a4c0c84b41e3fd4f649db7e"
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://visaphoto1tap.com/sitemap.xml",
+      "status": 200,
+      "match": true,
+      "sha256": "eb6e88dd08fa16e7c6f3a4c9fa9ddb34e9cabae23be5fb550a3ec5bd7f5f9f0e"
+    },
+    {
+      "path": "assets/app-store.svg",
+      "url": "https://visaphoto1tap.com/assets/app-store.svg",
+      "status": 200,
+      "match": true,
+      "sha256": "a26fc5b38380272c92e9019a2eb8b45542a66814b3e2b203772db8904b9fb99f"
+    },
+    {
+      "path": "assets/google-play.png",
+      "url": "https://visaphoto1tap.com/assets/google-play.png",
+      "status": 200,
+      "match": true,
+      "sha256": "f72611e2df8e88204009fd896d05d5e8e83c77009c63943bbffa169559934849"
+    }
+  ],
+  "all_match": true
+}
