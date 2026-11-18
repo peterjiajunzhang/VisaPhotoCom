@@ -12,6 +12,7 @@ from urllib.parse import urlsplit, unquote
 import html as html_lib
 import json, re, sys, xml.etree.ElementTree as ET
 from play_campaigns import play_url
+from store_attribution import tag_store_links
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -142,6 +143,7 @@ def main():
             new = re.sub(r'(<script type="application/ld\+json" data-guide-schema="">)(.*?)(</script>)',
                          lambda m: m.group(1) + data + m.group(3), html, count=1, flags=re.S)
             assert new != html or data in html, (path, 'schema block missing')
+            new = tag_store_links(new, ORIGIN + prefix + route(f), lang)
             check(BeautifulSoup(new, 'html.parser'), f, prefix, lang, problems)
             if new != path.read_text():
                 changed.append(str(path.relative_to(ROOT)))

@@ -95,3 +95,13 @@ The English and Simplified Chinese China upload guides distinguish the 3:4 onlin
 ### China photo guide for U.S. applications
 
 The existing China upload guides now map U.S. residents to the correct Chinese visa office and link out to the official application portal. The guide keeps the existing photo troubleshooting and separate paper-photo specifications. Its App Store badge and desktop QR use the existing China website campaign. [Acceptance record](review/country-acquisition-2026-11-17/china-us-guide.md)
+
+## Page-level store attribution
+
+Coverage includes 19 pages with existing store actions. Guide indexes, policy and support pages without store links retain their original navigation.
+
+Website attribution uses one campaign for each canonical page and destination app. Repeated links to the same app on a page share its campaign. iPhone links retain the developer's existing provider token. Google Play uses its supported campaign parameter for eligible US links. The previous shared campaigns remain in deployment history and existing campaign records.
+
+Direct store links still work if the counter cannot load. A real store link click sends the canonical page path and store/app target to a first-party counter. It uses no cookies or user/device identifiers, sends no photos, and stores aggregate counts. Automated checks use a separate QA flag. The counter records supported browser activations of direct store links. Store reports provide downloads when their reporting thresholds are met. Choosing a country site attributes the eventual download to the page that links directly to the store. [Website analytics disclosure](https://us.visaphoto1tap.com/privacy.html#website-analytics)
+
+The QR codes open the same page-attributed App Store URLs as the matching badges. Viewing or loading a QR code does not create a click. A download after scanning can use its campaign if the store reports it.
