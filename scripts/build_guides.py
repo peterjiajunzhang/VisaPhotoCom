@@ -17,6 +17,11 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = 'https://visaphoto1tap.com'
 MODIFIED = '2026-11-14'
+PAGE_MODIFIED = {
+    'guides/china-visa-photo-upload-failed.html': '2026-11-17',
+    'guides/india-e-visa-photo-requirements.html': '2026-11-17',
+    'guides/schengen-visa-photo-requirements-by-country.html': '2026-11-17',
+}
 LOCALES = [('en', ''), ('zh-Hans', '/zh-hans')]
 TOPICS = ['guides/index.html', 'guides/china-visa-photo-upload-failed.html',
           'guides/ds-160-photo-upload-error.html', 'guides/us-visa-photo-at-home-with-phone.html',
@@ -156,7 +161,7 @@ def main():
                 n = ET.SubElement(tree, '{' + ns + '}url')
                 ET.SubElement(n, '{' + ns + '}loc').text = url
                 ET.SubElement(n, '{' + ns + '}lastmod')
-            n.find('{' + ns + '}lastmod').text = MODIFIED
+            n.find('{' + ns + '}lastmod').text = PAGE_MODIFIED.get(f, MODIFIED)
     ET.indent(tree, space='  ')
     if ET.tostring(tree) != before:
         changed.append('sitemap.xml')
