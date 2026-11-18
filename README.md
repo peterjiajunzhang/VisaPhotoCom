@@ -91,3 +91,7 @@ See `review/country-acquisition-2026-11-17/` for validation scope and sources.
 ### China photo upload guides and Australian application route
 
 The English and Simplified Chinese China upload guides distinguish the 3:4 online JPEG from the 11:16 paper photo (33 × 48 mm). Each article links to the English [Australian application guide](https://china.visaphoto1tap.com/china-visa-photo-australia/) for the Sydney and Melbourne routes. The linked guide returns to the English troubleshooting article. [Acceptance record](review/country-acquisition-2026-11-17/china-australia-guide.md)
+
+### China photo guide for U.S. applications
+
+The existing China upload guides now map U.S. residents to the correct Chinese visa office and link out to the official application portal. The guide keeps the existing photo troubleshooting and separate paper-photo specifications. Its App Store badge and desktop QR use the existing China website campaign. [Acceptance record](review/country-acquisition-2026-11-17/china-us-guide.md)

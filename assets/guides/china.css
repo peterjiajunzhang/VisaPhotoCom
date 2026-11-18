@@ -1,0 +1,41 @@
+/* The site already offsets anchors for the sticky header with scroll padding. */
+.article #apply-from-us, .article #app { scroll-margin-top: 0; }
+
+.china-offices {
+  margin: 15px 0;
+  border: 1px solid #dce6ef;
+  border-radius: 12px;
+  background: #f4f8fc;
+}
+.china-office { padding: 12px 16px; }
+.china-office + .china-office { border-top: 1px solid #dce6ef; }
+.china-office dt { font-weight: 650; }
+.china-office dd { margin: 4px 0 0; color: #334e68; }
+.china-states { margin-top: 0; }
+.china-handoff .phone-qr { display: none; }
+.china-handoff .store img { display: block; }
+.china-handoff .store:focus-visible { outline: 2px solid #075fcc; outline-offset: 4px; }
+
+@media (min-width: 48rem) and (pointer: fine) {
+  .china-office {
+    display: grid;
+    grid-template-columns: 11rem minmax(0, 1fr);
+    column-gap: 12px;
+  }
+  .china-office dd { margin-top: 0; }
+  .china-handoff {
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(0, 1fr) 9rem;
+    gap: 18px;
+  }
+  .china-handoff .phone-qr {
+    display: grid;
+    justify-items: center;
+    margin: 0;
+    color: #53677c;
+    font-size: 13px;
+    text-align: center;
+  }
+  .china-handoff .phone-qr img { width: 9rem; height: auto; }
+}
