@@ -4,6 +4,20 @@
     "index.html"
   ],
   "modified": "2026-11-17",
+  "catalogGuideLinks": {
+    "schengen": {
+      "path": "/guides/schengen-visa-photo-requirements-by-country.html#compare",
+      "label": "Compare Schengen photo rules by country",
+      "product": "https://schengen.visaphoto1tap.com/",
+      "productLabel": "Explore Schengen app"
+    },
+    "india": {
+      "path": "/guides/india-e-visa-photo-requirements.html#spec",
+      "label": "Check India e-Visa photo requirements",
+      "product": "https://india.visaphoto1tap.com/",
+      "productLabel": "Explore India app"
+    }
+  },
   "keepEnglish": [
     "Visa Photo",
     "1-Tap",

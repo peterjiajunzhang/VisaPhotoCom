@@ -40,6 +40,20 @@ def clean(soup):
    p=a.find_parent('p')
    if p and len(p.find_all('a'))==1 and normalize(p.get_text())==normalize(a.get_text()):p.decompose()
 
+def catalog_guide_links(soup, lang):
+ has_guide = lang in ('en', 'zh-Hans')
+ for link in CONFIG['catalogGuideLinks'].values():
+  heading=soup.select_one(f'.app-card h3 a[href="{link["product"]}"]')
+  details=heading.find_parent('article').select_one('.details')
+  if has_guide:
+   details['href']=('/zh-hans' if lang=='zh-Hans' else '')+link['path']
+   label=link['label']
+  else:
+   details['href']=link['product']
+   label=link['productLabel']
+  details.find(string=True, recursive=False).replace_with(label+' ')
+  details.find('span', attrs={'aria-hidden':'true'}).string='→' if has_guide else '↗'
+
 def store_actions(soup,f):
  if not f.startswith('guides/') or f.endswith('index.html') or soup.select_one('.store-badges'):return
  source=BeautifulSoup((ROOT/'guides/us-visa-photo-privacy-and-pricing.html').read_text(),'html.parser')
@@ -125,6 +139,7 @@ for f in FILES:
   override=CONFIG.get('sourceOverrides',{}).get(lang,{}).get(f)
   native=bool(override)
   soup=BeautifulSoup((ROOT/override).read_text() if native else source,'html.parser');clean(soup);store_actions(soup,f)
+  if f=='index.html':catalog_guide_links(soup,lang)
   if lang!='en' and not native:translate(soup)
   soup.html['lang']=lang
   links(soup,f,lang);language_ui(soup,f,lang)
