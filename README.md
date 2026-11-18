@@ -87,3 +87,7 @@ Google accepted both updated sitemaps. The US map is Success with 38 discovered 
 China, India, Japan, Canada and Schengen iPhone badges across the seven homepage languages use the matching country app’s single App Store Connect website campaign. The English and Simplified Chinese China, India and Schengen guides share those campaigns with their country sites. The existing US Apple and Google Play links were retained. The Japan and Canada cards link directly to the photo-size and application-type comparisons. India’s guide distinguishes the official e-Visa limits from the app output settings.
 
 See `review/country-acquisition-2026-11-17/` for validation scope and sources.
+
+### China photo upload guides and Australian application route
+
+The English and Simplified Chinese China upload guides distinguish the 3:4 online JPEG from the 11:16 paper photo (33 × 48 mm). Each article links to the English [Australian application guide](https://china.visaphoto1tap.com/china-visa-photo-australia/) for the Sydney and Melbourne routes. The linked guide returns to the English troubleshooting article. [Acceptance record](review/country-acquisition-2026-11-17/china-australia-guide.md)
