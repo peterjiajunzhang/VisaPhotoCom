@@ -44,3 +44,18 @@ The checker regression covered 44 observations: the US homepage, guide index and
 Google Search Console already listed the Schengen sitemap. Its last read on November 8 showed Success with 2 discovered pages. The published XML now lists 8. The existing Google submission was retained.
 
 Bing Webmaster Tools initially had no Schengen property. The existing account verified only the Schengen subdomain using the publicly published XML file in SchengenVisaPhotoCom commit `4b5c0e9`. After confirming an empty sitemap list, we submitted the Schengen sitemap once. Bing reported Processing with no crawl yet and 0 discovered URLs. [Bing sitemap details](https://www.bing.com/webmasters/sitemaps?siteUrl=https://schengen.visaphoto1tap.com/) · [Verification deployment](https://github.com/peterjiajunzhang/SchengenVisaPhotoCom/actions/runs/44212187734)
+
+## Google crawl requests
+
+On November 17, 2026 (Pacific), each new Schengen country page was submitted once through URL Inspection under the verified `sc-domain:visaphoto1tap.com` property. Google returned **Indexing requested** and confirmed addition to its priority crawl queue for each page. This records request acceptance. Indexing has yet to be confirmed.
+
+| Page | Google response |
+| --- | --- |
+| [France, English](https://schengen.visaphoto1tap.com/france-visa-photo/) | Indexing requested |
+| [Germany, English](https://schengen.visaphoto1tap.com/germany-visa-photo/) | Indexing requested |
+| [Spain, English](https://schengen.visaphoto1tap.com/spain-visa-photo/) | Indexing requested |
+| [France, Simplified Chinese](https://schengen.visaphoto1tap.com/zh-hans/france-visa-photo/) | Indexing requested |
+| [Germany, Simplified Chinese](https://schengen.visaphoto1tap.com/zh-hans/germany-visa-photo/) | Indexing requested |
+| [Spain, Simplified Chinese](https://schengen.visaphoto1tap.com/zh-hans/spain-visa-photo/) | Indexing requested |
+
+The requests stayed within the UI quota. The existing sitemap submissions were retained. The Schengen site has no existing same-host public IndexNow key, so this round had no separate IndexNow submission.
