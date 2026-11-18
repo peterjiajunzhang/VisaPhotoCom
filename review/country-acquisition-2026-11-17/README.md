@@ -25,3 +25,22 @@ Clean entity URLs remain in structured data. US home and guide campaigns and Goo
 The 24 edited pages are checked for campaign and product ID, official badge, supported platform, canonical, language and structured-data links. Responsive checks include mobile, tablet and desktop, and the Japan, Canada and Schengen navigation paths. The withdrawn US JPEG inspector is checked across all seven homepage and guide routes, its historical `#file-check` fragment, the older Chinese redirect and its former CSS/JavaScript asset URLs. Existing published DS-160 text guides remain usable.
 
 Run `python scripts/build_locales.py`, `python scripts/build_guides.py --check` and `python scripts/check_growth.py .` to regenerate and verify the root locale and guide contracts.
+
+## Production readback
+
+Every edited HTML page returned HTTP 200 and matched its published repository bytes. The 24 pages had the expected canonical addresses, language alternates, store platforms and 68 campaign-tagged iPhone buttons. Chrome passed 96 page and viewport checks at widths of 320, 390, 768 and 1440 pixels, including the Japan narrow-screen follow-up. The US Play listing returned HTTP 200 in the US storefront, and the other five packages returned 404 in the same anonymous check.
+
+The checker regression covered 44 observations: the US homepage, guide index and DS-160 article in each of seven languages, the seven root homepages, all seven former `#file-check` links, the two root static DS-160 guides, the old Simplified Chinese redirect, its two historical localization source URLs and the old CSS and JavaScript URLs on both hosts. All four retired asset URLs returned HTTP 404. The static articles remain accessible. One request client received an intermediary HTML 503 for the old US JavaScript route before direct origin verification returned 404.
+
+| Site | Content commit | GitHub Pages run |
+| --- | --- | --- |
+| Root | `a1c6a6f` | [44211437163](https://github.com/peterjiajunzhang/VisaPhotoCom/actions/runs/44211437163) |
+| Canada | `2e6af82` | [44211437022](https://github.com/peterjiajunzhang/CanadaVisaPhotoCom/actions/runs/44211437022) |
+| China | `222135b` | [44211376131](https://github.com/peterjiajunzhang/ChinaVisaPhotoCom/actions/runs/44211376131) |
+| India | `7126894` | [44211377376](https://github.com/peterjiajunzhang/IndiaVisaPhotoCom/actions/runs/44211377376) |
+| Japan | `0c998ef` | [44211908478](https://github.com/peterjiajunzhang/JapanVisaPhotoCom/actions/runs/44211908478) |
+| Schengen | `f2f39b8` | [44211376031](https://github.com/peterjiajunzhang/SchengenVisaPhotoCom/actions/runs/44211376031) |
+
+Google Search Console already listed the Schengen sitemap. Its last read on November 8 showed Success with 2 discovered pages. The published XML now lists 8. The existing Google submission was retained.
+
+Bing Webmaster Tools initially had no Schengen property. The existing account verified only the Schengen subdomain using the publicly published XML file in SchengenVisaPhotoCom commit `4b5c0e9`. After confirming an empty sitemap list, we submitted the Schengen sitemap once. Bing reported Processing with no crawl yet and 0 discovered URLs. [Bing sitemap details](https://www.bing.com/webmasters/sitemaps?siteUrl=https://schengen.visaphoto1tap.com/) · [Verification deployment](https://github.com/peterjiajunzhang/SchengenVisaPhotoCom/actions/runs/44212187734)
